@@ -14,3 +14,18 @@ git status
 
 git add radsketch.pde
 --add file to be version control
+
+ git commit -m "Created a triangle in a circle"
+--add a commit comment
+
+git remote add origin https://github.com/zx2160/edav.git
+
+git remote add mike https://github.com/malecki/edav.git
+git fetch mike
+
+git remote rm mike
+
+git remote -v 
+-- to see all remote
+
+git push origin master
