@@ -1,0 +1,16 @@
+touch filename.txt
+--put timestamp on existed file or create file if file is not existed
+
+--first time setup, to set up user name and password, only for new installation
+git config --global user.name "YOUR_FULL_NAME"
+git config --global user.email "YOUR_EMAIL_ADDRESS"
+
+
+git init
+--initalize the git tracking for current folder
+
+git status 
+=--to track the status of the folder
+
+git add radsketch.pde
+--add file to be version control
