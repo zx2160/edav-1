@@ -25,7 +25,16 @@ git fetch mike
 
 git remote rm mike
 
+git commit -m "commit comment here"
 git remote -v 
 -- to see all remote
 
 git push origin master
+
+git log
+
+git reset HEAD filename to put it back to untracked file from stage file
+--like undo the git add
+
+git add .
+---add unstage changes to stage area
