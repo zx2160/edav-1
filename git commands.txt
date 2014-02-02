@@ -38,3 +38,7 @@ git reset HEAD filename to put it back to untracked file from stage file
 
 git add .
 ---add unstage changes to stage area
+git branch---to see all the branches out there
+git branch newbranchname --to create a new branch
+git check branchname -- to switch branch
+git branch -b
